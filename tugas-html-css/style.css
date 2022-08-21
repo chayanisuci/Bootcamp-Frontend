@@ -1,0 +1,183 @@
+@font-face {
+	font-family: qbold;
+	src:url(font/Quicksand_Bold.otf);
+}
+
+@font-face {
+	font-family: qlight;
+	src: url(font/Quicksand_Light.otf);
+}
+.navbar {
+	overflow: hidden;
+	background-color: #191970;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-left: -10px;
+	padding-right: 10px;
+	padding: 15px;
+}
+.navbar a {
+	font-family: qbold;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navbar a:hover {
+	background:  #ffc002;
+	color: black;
+}
+#welcome{
+	background-image: url(img/bromo.jpg);
+	background-size: cover;
+	display:flex;
+	flex-direction:column;
+	height:690px;
+	align-items:center;
+	justify-content:center;
+	width: 100%;
+	margin-left: -10px;
+	padding-right: 18px;
+}
+#welcome h1{
+	color: white;
+	font-size: 60px;
+	font-family: qbold;
+}
+#welcome p{
+	color: white;
+	margin-bottom: 70px;
+	font-size: 30px;
+	margin-top: -20px;
+	font-family: qbold;
+}
+#btn{
+	font-family: qbold;
+	background-color: #ffa500;
+	border: white;
+	border-radius: 50px;
+	padding: 20px 60px;
+	color: black; 
+	font-size: 20px;
+	margin-top: 30px;
+	margin-top: 20px;
+	color: black;
+
+
+}
+.pembuka h1{
+	font-family: qbold;
+}
+.pembuka h3{
+	font-family: qlight;
+}
+
+#garis{
+	height: 5px;
+	width: 500px;
+	background-color: #191970;
+	border:#191970;
+}
+#container {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+
+}
+
+.box {
+	min-height: 500px;
+	margin-top: 20px;
+}
+
+.card {
+	width: 300px;
+	height: auto;
+	grid-column: span 8;
+	margin: 10px 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+	margin-left: 60px;
+
+}
+
+.head-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.body-card {
+	padding: 10px 15px;
+}
+
+.body-card h4 {
+	margin: 0;  
+	font-family: qbold;
+	/*text-align: justify;*/
+
+}
+
+.body-card p {
+	margin: 0;  
+	font-family: qlight;
+	font-size: 15px;
+	margin-top: 10px;
+	color: #191970;
+
+}
+
+.card2 {
+	padding-top: 50px;
+	width: 300px;
+	height: auto;
+	grid-column: span 8;
+	margin: 10px 0;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+	margin-left: 60px;
+
+}
+
+.head-card2 img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 15px 15px 0px 0px;
+}
+
+.body-card2 {
+	padding: 10px 15px;
+}
+
+.body-card2 h4 {
+	margin: 0;  
+	font-family: qbold;
+
+}
+
+.body-card2 p {
+	margin: 0;  
+	font-family: qlight;
+	font-size: 15px;
+	margin-top: 10px;
+	color: #191970;
+
+}
+#rating img{
+	margin-top: 10px;
+}
+#love {
+	margin-left: 90px;
+}
+.footer{
+	background-color:#696969;
+	height: 60px;
+	margin-left: -10px;
+	color: white;
+	padding-top: 10px;
+	
+}
