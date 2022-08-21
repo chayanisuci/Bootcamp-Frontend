@@ -1,0 +1,24 @@
+.navbar-expand-lg {
+    overflow: hidden;
+    background-color: #191970;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+  }
+  .navbar a {
+    font-family: qbold;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.navbar a:hover {
+    background:  #ffc002;
+    color: black;
+  }
+#intro {
+    background-image: url("img/wlpp.jpg");
+    height: 90vh;
+  }

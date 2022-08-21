@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Beranda</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#destinasi">Destinasi Wisata</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Background image -->
+      <div id="intro" class="bg-image shadow-2-strong">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+          <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="text-white">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    
+      <!--Main layout-->
+          <hr class="my-5" />
+    
+          <!--Section: Content-->
+          <section class="text-center" id="destinasi">
+            <h4 class="mb-5"><strong>Mau Kemana Hari Ini??</strong></h4>
+    
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="img/airterjun.jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Air Terjun</h5>
+                    <p class="card-text">
+                     Nikmati bebagai wisata alam salah satunya air terjun.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="img/bromo.jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Gunung</h5>
+                    <p class="card-text">
+                      Nikmati akhir pekan dengan mendaki atau kemping
+                    </p>
+                    <a href="#!" class="btn btn-primary">Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="img/zoo.jpg" class="img-fluid" />
+                    <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Kebun Hewan</h5>
+                    <p class="card-text">
+                      Wisata sambil belajar untuk anak-anak
+                    </p>
+                    <a href="#!" class="btn btn-primary">Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+    
+          <hr class="my-5" />
+    
+          <!--Section: Content-->
+          <section class="mb-5">
+            <h4 class="mb-5 text-center"><strong>Kontak Kami</strong></h4>
+    
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-6">
+                <form>
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row mb-4">
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example1" class="form-control" />
+                        <label class="form-label" for="form3Example1">Nama Depan</label>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input type="text" id="form3Example2" class="form-control" />
+                        <label class="form-label" for="form3Example2">Nama Belakang</label>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3">E-mail</label>
+                  </div>
+    
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <input type="password" id="form3Example4" class="form-control" />
+                    <label class="form-label" for="form3Example4">Password</label>
+                  </div>
+    
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" checked />
+                    <label class="form-check-label" for="form2Example3">
+                      Tetap Masuk akun ini?
+                    </label>
+                  </div>
+    
+                  <!-- Submit button -->
+                  <center><button type="submit" class="btn btn-primary btn-block mb-4">
+                    Simpan
+                  </button></center>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!--Section: Content-->
+        </div>
+      </main>
+      <!--Main layout-->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Chayani
+        </div>
+        <!-- Copyright -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
